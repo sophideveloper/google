@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> w3school first example</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+<!-- 	<style>
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> -->
+<style>
+body {
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 400px;
+  background-attachment: fixed;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+	<i class="material-icons">view_module</i>
+	<h1 style=" font-size:60px ;color:red;">
+		headings
+	</h1>
+	<hr>
+	<h2>
+		heading 2
+	</h2>
+	<h1 style="font-size:200px;">This is a heading</h1>
+	<hr>
+	<h3>
+		hi heading 3
+	</h3>
+	<p>
+		this is a paragraph
+	</p>
+
+	<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser 
+ignores it.
+</p>
+<pre style="font-size: 60px; background-color: yellow ; color : green; text-align : ;">
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, <mark>bring </mark>back <em>my </em>Bonnie <STRONG>to me</STRONG>.
+  <b>This <ins>text </ins> is bold</b>
+</pre>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<p>My favorite color is <del>blue</del> red.</p>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+	<button>Click me</button>
+	<a href= "https://www.google.com/" target="_top"> google
+</a>
+<BR>
+<br>
+<textarea name="message" rows="10" cols="130">
+The cat was playing in the garden.
+</textarea>
+<br>
+<br>
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist> 
+</form>
+<br>
+<br>
+<br>
+<br>
+
+<form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+<br>
+<br>
+
+<br>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<br>
+`
+<form>
+ <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+
+
+<br>
+<br>
+<select name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+<br>
+
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<br>
+A horizontal rule: <hr>
+<br>
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<br>
+<br>
+Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.
+<br>
+<form action="">
+  First name:<br>
+  <input type="text" name="firstname" value="John" size="40" >
+</form>
+
+<br>
+<form>
+  Quantity:
+  <input type="number" name="points" min="0" max="100" step="10" value="30">
+</form>
+<br>
+<form>
+  Search Google:
+  <input type="search" name="googlesearch">
+</form>
+<br>
+<br>
+<br>
+<br>
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+<br>
+<br>
+<form>
+  E-mail:
+  <input type="email" name="email">
+</form>
+<br>
+<form>
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+</form>
+
+<br>
+<form>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+</form>
+<code>
+x = 5;<br>
+y = 6;<br>
+z = x + y;
+</code>
+<iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+
+<br>
+<br>
+<br>
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<br>
+<br>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+<table style="width:100%" id = "t01">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+
+<p style="background-image:url('2.jpg');">
+	<table style="width:100%">
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+</p>
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+<br>
+<table style="width:50%">
+  <tr>
+    <td>Firstname</td>
+    <td>Lastname</td> 
+    <td>Age</td>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+
+<p><img src="3.jpg" alt="gorbejoon" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<br>
+<a href="http://www.gorbe.com">
+  <img src="3.jpg" alt="Gorbe" style="width:42px;height:42px;border:0;">
+</a>
+<br>
+<h2 id="C4">Chapter 4</h2>
+
+
+<body style="background-image:url('clouds.jpg');">
+
+<h2>Background Image</h2>
+
+</body>
+
+<br>
+<img src="2.jpg" alt="W3Schools.com" width="300" height="400">
+<br>
+<ul>
+  <ol>Coffee</ol>
+  <ol>Tea</ol>
+  <ol>Milk</ol>
+</ul>
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<br>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p style = "color:red"> salam chetori </p>
+<p id="monkey">
+
+This is a paragraph.
+</p>
+<a href="#C4">Jump to Chapter 4</a>
+<bdo dir="LTR">This text will be written from right to left</bdo>
+<!-- Do not display this at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<!-- s -->
+<!-- sasasa -->
+<br>
+<a href="/html/default.asp">HTML tutorial</a>
+<p class ="error"> different things to show  </p>
+</body>
+</html>
