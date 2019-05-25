@@ -1,0 +1,20 @@
+vpns:
+	speed-vpn.com:
+		connection type: cisco
+		username: 3m127718
+		password: 168566
+		ip address: s38.speediran.info:555 -> usa
+					s33.speediran.info:555 -> germany 1
+					s35.speediran.info:555 -> germany 2
+					s52.speediran.info:555
+
+	http://ilcvpn.site: 12 mahe
+		connection type: cisco
+		username: ctrc685 
+		password: 2020
+		ip address: cs1.ilcvpn.info:510
+					cs2.ilcvpn.info:510
+					cs3.ilcvpn.info:510
+					cs4.ilcvpn.info:510
+
+https://github.com/sophideveloper/google
