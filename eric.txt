@@ -1,0 +1,64 @@
+1-Slider:
+	1-http://www.prosez.com/
+	2-https://smartslider3.com/static/
+	3-https://smartslider3.com/product-showcase-page-mobile-app/
+2-Show you business features:
+	1-https://boostedboards.com/
+	2-https://theenvironmentalpartnership.org/what-were-doing/
+	3-http://www.prosez.com/#Industry
+3-Partners,
+	0-https://anetwork.ir/en/
+	1-https://theenvironmentalpartnership.org/who-we-are/
+	2-https://www.futurelearn.com/partners
+	3-https://www.gv.com/portfolio/
+4-Countings -> for show how many users, project done, etc
+	1-https://anetwork.ir/en/
+	2-https://www.smartsheet.com/s/manage-projects?s=1&c=3&m=3001&a=278853859107&k=project%20management&mtp=b&adp=1t1&net=g&dev=c&devm=&plc=&gclid=CjwKCAjw8LTmBRBCEiwAbhh-6KNxqcXFg6_JR9netPBaI771-T51MAAHpife55dA2xMnU9BJkEpoEhoC18IQAvD_BwE
+	3-https://boostedboards.com/
+5-show your site statistics:
+	1-https://i.pinimg.com/originals/4e/71/69/4e7169d67e3821d7c7c39d204ab73fe6.png
+	2-https://qvdesign.wordpress.com/2012/03/07/beautiful-design-chart-innovations-from-qliktech-and-the-elephant-in-the-dashboard/
+	3-https://dribbble.com/shots/1885376-LPCloud-Dashboard
+6-social media icons:
+	1-https://www.vandelaydesign.com/free-social-media-icons/
+	2-http://gdj.graphicdesignjunction.com/wp-content/uploads/2013/02/flaticons-socialmediaicons.jpg
+	3-https://elements.envato.com/social-media-icons-R8X6EX
+	4-https://elements.envato.com/social-media-icons-6DLSCG
+7-counting down for time to start your events:
+	1-https://i.pinimg.com/originals/19/10/98/1910986e27a2295713444a99ce9a7511.jpg
+	2-https://dribbble.com/shots/6265423-Daily-UI-Challenge-014-Countdown-Timer
+	3-https://dribbble.com/shots/2369565-Daily-UI-14-Countdown-Timer
+	4-https://dribbble.com/shots/6430318-Countdown-Timer-UI-Design-Dark-Version
+8-customers review:
+	0-http://cafetarah.ir/Saadatrent/index.html
+	1-https://www.socialmediatoday.com/social-business/social-media-customer-service-statistics-and-trends-infographic
+	2-https://get.chownow.com/testimonials-reviews
+	3-https://www.booker.com/customers
+	4-https://blog.hubspot.com/service/customer-journey-map
+9-contact us,
+	1-https://anetwork.ir/en/
+	2-https://www.google.com/contact/
+	3-https://www.multichoice.com/contact-us/
+10-menu,
+	1-https://www.google.com/analytics/tag-manager/use-policy/
+	2-https://www.multichoice.com/contact-us/
+	3-
+11-google map:
+	1-https://dribbble.com/shots/3096959-Directions-Module-UI-Challenge -> I try to add them
+	2-https://dribbble.com/shots/2443129-Dark-UI-Map-Dashboard?1452178107 -> I try to add them
+	3-https://dribbble.com/shots/3078960-Topvet-Desktop-Web-App-Search -> I try to add them
+12-form:
+	0-https://wpforms.com/beautiful-contact-form-designs-you-can-steal/
+	1-https://dribbble.com/shots/2804008-Sign-Up-for-form-creation?webdesign=7998002518
+	2-https://dribbble.com/shots/2057830-Ceek-Landing-Page
+	3-https://cdn-images-1.medium.com/max/1600/1*ZOsCR_CVPlelrS4dnNivpw.png
+13-custome media like video:
+	1-https://burnishcreative.com/
+	2-https://spot.film/
+	3-https://www.awwwards.com/websites/video/
+14-search:
+	1-search result like google ui
+15-login panel:
+	1-https://colorlib.com/wp/wp-content/uploads/sites/2/login-form-v1.jpg
+	2-https://colorlib.com/wp/wp-content/uploads/sites/2/login-form-v3.jpg
+	3-https://colorlib.com/wp/wp-content/uploads/sites/2/login-form-v7.jpg
