@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- 	<style>
+		.box{
+			width: 600px;
+	  border: 2px solid grey;
+	  padding: 2px;
+	  margin: 2px;
+		}
+	</style> -->
+	<style>
+		@font-face {
+  			font-family: myFirstFont;
+  			src: url(\fonts\Iransans.ttf);
+		}
+
+		#signin:link, #signin:visited {
+		  background-color: #5dade2;
+		  color: white;
+		  padding: 7px 10px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 12px;
+		  display: inline-block;
+		  border-radius : 4px;
+		}
+		a{
+		text-decoration:none;
+		}
+		input {
+		width: 39%;
+		padding: 15px 20px;
+		margin: 10px 0px;
+		border-radius: 30px;
+		}
+		.google-search-input{
+			background-color: transparent;
+		    border: none;
+		    border: 1px solid #eee;
+		    margin: 0;
+		    padding: 0;
+		    color: rgba(0,0,0,.87);
+		    word-wrap: break-word;
+		    outline: none;
+/*		    -webkit-tap-highlight-color: transparent;*/
+		}
+		.google-icons{
+			background-image: url('icon.png');
+			background-position: -132px -38px;
+			background-size: 528px 68px;
+		    opacity: .55;
+		    width: 200px;
+		    height: 200px;
+
+		    display: inline-block;
+ 		   	outline: none;
+    		vertical-align: middle;
+   			 -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+		}
+		.account-icon{
+background-image: url('icon2.png');
+			background-position: -132px -38px;
+			background-size: 528px 68px;
+		    opacity: .55;
+		    width: 100px;
+		    height: 100px;
+
+		    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+
+.search-icon{
+background-image: url('icon2.png');
+			background-position: 132px -38px;
+			background-size: 528px 68px;
+		    opacity: .55;
+		    width: 100px;
+		    height: 100px;
+
+		    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.map-icon{
+	background-image: url('icon2.png');
+			background-position: -132px -38px;
+			background-size: 528px 68px;
+		    opacity: .55;
+		    width: 100px;
+		    height: 100px;
+
+		    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+	</style>
+</head>
+<body>
+	<div style = "font-size : 15px; text-align: right; margin:3px;">
+		<a href = "http://www.gmail.com"  target = "_blank" style="margin:8px">  Gmail  </a>
+		<a href = "https://www.google.com/imghp?hl=en&tab=wi" target = "top" style="margin:8px"> Images   </a> <div class="google-icons">
+  </div>
+<!-- 		<div class="google-icons">
+		</div>  -->
+	</button>
+  <div class="dropdown-content">
+    <a href="https://myaccount.google.com/intro?utm_source=OGB&tab=wk&utm_medium=app " class="account-icon">
+Account </a>
+    <a href="https://www.google.com/webhp?tab=ww" class="search-icon">Search</a>
+    <a href="https://www.google.com/maps?hl=en&tab=wl" class = "map-icon">Maps</a>
+  </div>
+
+		<!-- <i class="material-icons google-icons" style="margin:8px 15px">view_module</i> -->
+		<a id= "signin"	href ="https://accounts.google.com/signin/v2/sl/pwd?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="top" style="margin:10px 20px"> sign in 
+		</a>
+
+	</div>
+	<center style="margin-top: 200px;">
+		<div>
+			<img src="googlelogo_color_272x92dp.png" alt="Google">
+		</div>
+		<!-- <span style = "font-size : 500%; font-family: Comic Sans MS; color : blue"> G </span>
+		<span style = "font-size : 500%;font-family: Comic Sans MS; color : red"> o </span>
+		<span style = "font-size : 500%; font-family: Comic Sans MS; color : yellow"> o </span>
+		<span style = "font-size : 500%; font-family: Comic Sans MS; color : blue"> g </span>
+		<span style = "font-size : 500%; font-family: Comic Sans MS; color : green"> l </span>
+		<span style = "font-size : 500%; font-family: Comic Sans MS; color : red"> e </span>
+		<br> -->
+		<!-- <div class ="box">
+		  search 
+		</div> -->
+		<form action="/action_page.php">
+		  <input type="text" name="search" value="search" class="google-search-input">
+		</form>
+
+		<button style ="font-size: 90%;
+		border:20px;border-radius:4px ; background-color:#eaeded
+		;padding:10px;margin:0px 10px ; width:140px">Google Search</button>
+		<button style ="font-size: 90%;border:10px;border-radius:4px; background-color:#eaeded
+		;padding:10px; width:140px;	">I'm Feeling Lucky </button>
+
+	</center>
+</body>
+</html>

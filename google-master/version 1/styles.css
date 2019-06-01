@@ -1,0 +1,33 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+/*p {
+  border: 1px solid powderblue;
+  padding: 100px;
+  }*/
+  p {
+  border: 1px solid powderblue;
+  margin: 100px;
+}
+#p01 {
+  color: blue;
+}
+p.error {
+	color : red;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  text-align: center;
+}
+table {
+  border-spacing: 5px;
+}
+table#t01 {
+  background-color: #f1f1c1;
+}
+}

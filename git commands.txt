@@ -1,0 +1,7 @@
+git init -> faghat 1 bar
+
+ git config --global user.email "mohammadifateme.math@gmail.com"
+
+git add .
+git commit -m "message"
+git push origin master

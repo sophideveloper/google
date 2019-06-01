@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bootstrap7</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1> Nesting Button Groups </h1>
+		<p>Nest button groups to create dropdown menus: </p>
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary"> Apple </button>
+			<button type="button" class="btn btn-primary"> Sumsung </button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> Sony </button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item"> tablet </a>
+					<a href="#" class="dropdown-item"> tablet </a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<!-- collapse show -->
+		<button class="btn btn-primary" data-toggle="collapse" data-target="#demo" > Simple collapse </button>
+		<div id="demo" class="collapse">
+			hello kitti jooni
+		</div>
+		<br>
+		<br>
+		<br>
+
+		<!-- collapse hide -->
+		<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+			simple collapsible
+		</button>
+		<div id="demo" class="collapse show">
+			hello kiti jooni jooni ldsdm dfkdcsl dxcd
+		</div>
+	</div>
+</body>
+</html>
